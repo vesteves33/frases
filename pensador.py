@@ -3,6 +3,7 @@ from pathlib import Path
 import requests as req
 import time
 
+
 categorias = ['mensagens_de_reflexao',
               'frases_de_motivacao',
               'frases_inteligentes',
