@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 from pathlib import Path
 import requests as req
 import time
-
+import pandas as pd
 
 categorias = ['frases-motivacionais',
               'frases-forca',
@@ -12,7 +12,6 @@ categorias = ['frases-motivacionais',
               'frases-coragem',
               'frases-motivacao-status'
               ]
-
 
 frases = []
 

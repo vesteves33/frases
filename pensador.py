@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 from pathlib import Path
 import requests as req
 import time
-
+import pandas as pd
 
 categorias = ['mensagens_de_reflexao',
               'frases_de_motivacao',
